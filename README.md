@@ -8,10 +8,10 @@
 le agrega el matiz de la lcapacidad de analizar  el problema y que logica utlizar para resolver el mismo. Se anexa seguido  
 de este menasje la prueba de tests de los hacks*
 
-
 ~~~
 ========================================== test session starts ==========================================
-platform linux -- Python 3.11.2, pytest-7.2.1, pluggy-1.5.0 -- /home/antares/Documentos/Practicas_Git/python/hack_python_2/hackpy2/bin/python3
+platform linux -- Python 3.11.2, pytest-7.2.1, pluggy-1.5.0 --  
+ /home/antares/Documentos/Practicas_Git/python/hack_python_2/hackpy2/bin/python3
 cachedir: .pytest_cache
 rootdir: /home/antares/Documentos/Practicas_Git/python/hack_python_2
 collected 10 items                                                                                      

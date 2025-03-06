@@ -22,12 +22,12 @@ def fn_hack_5(s):
                 result = result[:salto-1]+ xchar + result[salto:] # remplazo
             else:
                 if not ctrl in xvcl: # es consonante
+                    ctrl = result[salto-1:salto] # control de insercion o remplazo    
                     result = result[:salto-1]+ xchar + result[salto:]  # remplazar
                 else: # es vocal
+                    ctrl = result[salto-1:salto] # control de insercion o remplazo    
                     result = result[:salto-1]+ xchar + result[salto-1:]  # insertar
-                ctrl = result[salto-1:salto] # control de insercion o remplazo    
             salto = salto + 3
-        salto = salto + 3
     return result
 
 print(fn_hack_5("fooziman"))
